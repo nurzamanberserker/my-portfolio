@@ -1,38 +1,34 @@
-title: NQ LEGENDS
+# Informasi blog
 
-site_title: Info game paling bagus untuk di simak.
+title: "NQ LEGENDS"
+author: "nurzamanberserker"
+description: "Semua tentang game ada di Nq legends"
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%d %B %Y"
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-      comments: false
-      search: true
-      sidebar: menu
-      navigasi: navigasi
+# Latar belakang
 
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true
-      search: true
-      sidebar: menu
-      navigasi: navigasi
+show_excerpts: true
+show_frame: true
+show_sidebar: false
+minimal: false
 
-highlighter: rouge
+# Menu disini
 
-markdown: kramdown
-kramdown:
- input: GFM
- auto_ids: true
- hard_wrap: false
- syntax_highlighter: rouge
+navigation:
+  - {file: "index.html"}
+  - {file: "README.md"}
 
-sidebars:
-- menu
+external:
+  - {title: Mail, icon: envelope, url: "mailto:master@mwns.my.id"}
+  - {title: Github, icon: github, url: "https://github.com/nurzamanberserker/Nq-legends"}
+  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+
+comments:
+#  disqus_shortname: ""
+#  isso_domain: ""
+
+plugins:
+ - jekyll-feed
