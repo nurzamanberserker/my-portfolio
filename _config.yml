@@ -23,7 +23,7 @@ navigation:
 
 external:
   - {title: Mail, icon: envelope, url: "mailto:master@mwns.my.id"}
-  - {title: Github, icon: github, url: "https://github.com/nurzamanberserker/Nq-legends"}
+  - {title: Github, icon: github, url: "https://github.com/nurzamanberserker/my-portfolio"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
