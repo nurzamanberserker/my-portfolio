@@ -1,0 +1,38 @@
+navigasi_title: kabar loker
+
+site_title: Temukan berita lowongan kerja hanya di kabar loker.
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      comments: false
+      search: true
+      sidebar: menu
+      navigasi: navigasi
+
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      search: true
+      sidebar: menu
+      navigasi: navigasi
+
+highlighter: rouge
+
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+sidebars:
+- menu
