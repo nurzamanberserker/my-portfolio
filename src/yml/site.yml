@@ -1,0 +1,25 @@
+name: NQ LEGENDS
+title: NQ LEGENDS | konten semua game
+description: NQ LEGENDS memberikan informasi semua tentang game
+tags:
+  - blog
+  - template
+  - jekyll
+  - theme
+  - netlify
+show_hero: true
+menu:
+  - title: Beranda
+    url: /
+  - title: Team
+    url: /about
+  - title: Kontak
+    url: /contact
+  - title: Sitemap
+    url: /feed.xml
+email: master@mwns.my.id
+# See: https://disqus.com/
+disqus_username: disqus_username
+# Contact Form Setting
+# See: https://formspree.io/
+formspree_form_id: formspree_form_id
